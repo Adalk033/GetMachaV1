@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--El DOCTYPE nos va a decir el tipo de version que estamos ocupando-->
+
+<html lang="en">
+<!-- Este que dice html es el elemento raiz de mi estructura-->
+
+<head>
+    <!--Dentro del head esta toda la metainformacion de nuestro proyecto-->
+    <meta charset="UTF-8"><!--Para definir los caracteres soportados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Para adaptar la página al tamaño de la pantalla del dispositivo-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Compatibilidad con el navegador internet explorer-->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body id="cuerpo">
+<!--Es todo lo visible que se va a ver en el navegador-->
+
+    <header class="header-conteiner-padre">
+        <div>
+            <section class="Logo">
+                <a href="#">
+                    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="macha" >
+                </a>
+            </section>            
+            <!--Este codigo de aca abajo es para una barra de navegacion-->
+            <nav class="barra_navegacion">
+
+                <!--El ul es para crear una lista o estructura de la barra de navegacion-->
+                <ul class="barra_navegacion_contenido">
+                    <!--Me parece que li, es para crear linkedos importantes-->
+                    <li>
+                        <!--Por ultimo, el "a" se dice ancor, y es para crear link es imagenes o palabras-->
+                        <a title="Inicio" href="">Inicio</a>
+                    </li>
+                    <li><a title="Servicios" href=""> Servicios </a></li>
+                    <li><a href="">Platform</a></li>
+                    <li>Pricing</li>
+                    <li>Customers</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                    <li>
+                        <a class="login" title="Login" href=""> Log in</a>
+                    </li>
+                    <li><button class="actions">Start free trial</button></li>
+                </ul>    
+    
+            </nav>
+        </div>    
+    </header>
+    
+    <br></br>
+    <br></br>
+    <main>
+        <div class="segundo_t">
+            <h2 class="subcaja2" id="h2">
+                Drive purchases
+                with your blog.
+            </h2>
+            <p class="subcaja2">
+                Blog better with the first all-in-one blogging tool for growing ecommerce brands. 
+                Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, 
+                and measure the results.
+            </p>
+        </div>
+        <div class="prueba_gratis">
+            <button class="actions">
+                Start free trial
+            </button>
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg" alt="shopify" class="shopify">
+        </div>
+        <br></br>
+        <iframe class="video" width="540" height="295" src="https://www.youtube.com/embed/FwyWcOUM08k" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </main>
+    <section class="caja2">
+        
+    </section>
+
+    <footer></footer>
+
+
+</body>
+</html>
